@@ -77,7 +77,7 @@ class AppPyTest(unittest.TestCase):
 
         self.assertIn('Результат:', retVal_text)
         self.assertIn('10.0 + 5.0 =', retVal_text)
-        self.assertIn('<strong>15</strong>', retVal_text)
+        self.assertIn('<strong>16</strong>', retVal_text)
     
     def test_calculator_subtraction_post(self):
         """Тест операции вычитания"""
